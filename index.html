@@ -1,11 +1,21 @@
+<!DOCTYPE html>
+
 <html>
     <head>
         <title>Quake Counter</title>
-        <script type=text/javascript src=scripts.js></script>
-        <link rel=stylesheet href=style.css>
+
+        <meta charset="utf-8" />
+        <meta name="description" content="Alicativo web para ajudar no cálculo de tempo em QuakeLive e Diabotical." /><!--Max 156 chars-->
+        <meta name="keywords" content="" />
+        <meta name="author" content="Giuseppe Lanna" />
+
+        <script type="text/javascript src=scripts.js"></script>
+        <link rel="stylesheet" href="style.css">
     </head>
-    <body onload=load()>
-        <div id=heavy style=background-color:#c84040>0:0</div>
-        <div id=mega style=background-color:#0080e0>0:0</div> 
+
+    
+    <body onload="body_load()" onclick="time=0">
+        <div id="heavy" style="background-color:#c84040">0:0</div>
+        <div id="mega" style="background-color:#0080e0">0:0</div> 
     </body>
 </html>
