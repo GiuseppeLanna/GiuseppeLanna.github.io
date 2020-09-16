@@ -10,9 +10,9 @@ function tick()
     heavy.innerHTML = parseInt(heavyCounter / 60) + ":" + heavyCounter % 60;
     mega.innerHTML = parseInt(megaCounter / 60) + ":" + megaCounter % 60;
 }
-function load()
+function body_load()
 {
-    var delay = parseInt(prompt("Escolha o tempo a ser esperado antes que o cronômetro inicie", "5"))
+    var delay = parseInt(prompt("Escolha o tempo a ser esperado antes que o cronômetro inicie.", "5"))
     time = -delay;
 
     var heavyCounter = time + 25;
