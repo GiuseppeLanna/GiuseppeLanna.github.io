@@ -9,13 +9,21 @@
         <meta name="keywords" content="" />
         <meta name="author" content="Giuseppe Lanna" />
 
-        <script type="text/javascript src=scripts.js"></script>
+        <script type="text/javascript" src="scripts.js"></script>
         <link rel="stylesheet" href="style.css">
     </head>
 
-    
-    <body onload="body_load()" onclick="time=0">
-        <div id="heavy" style="background-color:#c84040">0:0</div>
-        <div id="mega" style="background-color:#0080e0">0:0</div> 
+
+    <body onload="main()">
+        <div class="fill">
+            <div class="timeblock armor">
+                <label for="armor" class="item">Armor</label>
+                <span id="armor" class="timespan">0:0</span>
+            </div>
+            <div class="timeblock megahealth">
+                <label for="megahealth" class="item">Megahealth</label>
+                <span id="megahealth" class="timespan">0:0</span>
+            </div>
+        </div>
     </body>
 </html>
