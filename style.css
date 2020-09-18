@@ -13,6 +13,7 @@ body
     background-color: #404040;
     margin:0;
     padding:0;
+    user-select: none;
 }
 
 div.fill
@@ -58,7 +59,7 @@ label.item
 
     font-family: 'Segoe UI Bold', Tahoma, Geneva, Verdana, sans-serif;
     color: rgba(255, 255, 255, 0.4);
-    font-size: 35px;
+    font-size: 30px;
 
     margin: 0px;
     padding: 0px;
